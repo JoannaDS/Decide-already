@@ -1,0 +1,18 @@
+html {
+  font-size: 62.5%
+}
+
+body {
+  background-color: $off-dark-violet;
+  font-family: Verdana, Geneva, Tahoma, sans-serif, Arial, sans-serif;
+  font-size: $m-size;
+}
+
+button {
+  cursor: pointer;
+  border-radius: 0.5rem;
+}
+
+button:disabled {
+  cursor: default
+}

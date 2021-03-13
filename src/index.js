@@ -1,12 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
+import IndecisionApp from './components/IndecisionApp';
 import reportWebVitals from './reportWebVitals';
+import './styles/styles.scss';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <IndecisionApp />
   </React.StrictMode>,
   document.getElementById('root')
 );
